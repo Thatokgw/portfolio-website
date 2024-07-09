@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/5b17e82dd8.js" crossorigin="anonymous"></script>
+  <title>My-Portfolio | Home</title>
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Logo.png" alt="logo" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu"></i>
+      </nav>
+
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span> Thato Kgwetiane</span> <br> from South Africa</h1>
+      </div>
+    </div>
+  </header >
+
+  <section>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="..//images/TT2018.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am a passionate web developer with a knack for seamless user experiences, easy to use applications. With a strong foundation in front-end-dev, I specialize in creating responsive, dynamic & user centric websites. So whether it's a sleek business website, an interactive web app or an e-commerce paltform, I am dedicated to deliovering high quality & innovative solutions.
+              <br>
+              I am a student for life, and always exploring the latest tech and trends to stay ahead of the curve. When I am not coding, find me in a dojo.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <!-- Tab Contents -->
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br>Design & Build Websites</li>
+                <li><span>Salesforce</span><br>Implementation of Salesforce CRM</li>
+                <li><span>Software Testing</span><br>Manual Testing & Automation </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023 - Current</span><br>Web Developer at TPN Innovative Solutions</li>
+                <li><span>2022 - 2024</span><br>Software Quality Control at Newpaper.io </li>
+                <li><span>2016 - 2021</span><br>Financial Advisor</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br>Certified Salesforce Administrator by Trailhead</li>
+                <li><span>2019</span><br>ISTQB Foundation by SASTQB</li>
+                <li><span>2014</span><br>N:Dip Metallurgy at Vaal University of Technology</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Transform your vision into reality with our custom website development service. We specialize in the creation and building of responsive, dynamic websites for your uniques busness needs. Be it a brand new website or just an upgrade, you can trust us to give you an experience you deserve.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>Salesforce </h2>
+            <p>Optimize your business operations with our comprehensive Salesforce Administration service. We provide expert management and customization of your Salesforce platform to ensure it aligns perfectly with your business processes. Our services include user management, data integrity maintenance, workflow automation, and customized reporting. Whether you're just getting started with Salesforce or looking to enhance your existing setup, we ensure a smooth and efficient operation, empowering your team to work smarter and achieve more. Let us help you unlock the full potential of Salesforce, driving productivity and business growth.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-app-store"></i>
+            <h2>Software Testing</h2>
+            <p>Ensure the highest quality and reliability of your software with our professional Software Testing service. We offer comprehensive testing solutions, including manual and automated testing, to identify and resolve defects early in the development cycle. Our services cover functional, performance and usability testing. By leveraging the latest testing tools and methodologies, we help you deliver robust, error-free software, reducing time-to-market and enhancing customer satisfaction. Trust us to safeguard your software's integrity and performance.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+     <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/portfolio-item1.jpg" alt="">
+              <div class="layer">
+                  <h3>Social Media App</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis totam ullam in commodi, perferendis aliquid.</p>
+                  <a href="#"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/portfolio-item2.jpg" alt="">
+              <div class="layer">
+                <h3>Music App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis totam ullam in commodi, perferendis aliquid.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/portfolio-item3.jpg" alt="">
+              <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis totam ullam in commodi, perferendis aliquid.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+     <!-- Contact -->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fas fa-paper-plane"></i>thatokgwetiane@gmail.com</p>
+              <p><i class="fas fa-phone-square-alt"></i>071 423 6038</p>
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedink"></i></a>
+              </div>
+              <a href="../images/myCV.docx" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" pattern="[A-Za-z\s]" title="Only letters and spaces are allowed" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright @ Thato. Made with <i class="fa-solid fa-shield-heart"></i> by TPN Innovative Solutions</p>
+        </div>
+      </div>
+
+  </section>
+  <script src="js/main.js"></script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwdIWyswGYbbpmLcBpW6r68sNSOyS1tfvrV3hCvsHJ8l8rLlvk1Dho2P8TTMC4TPjdb/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = 'Message sent successfully'
+          setTimeout(function() {
+            msg.innerHTML = "";
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
